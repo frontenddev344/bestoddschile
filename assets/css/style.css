@@ -470,7 +470,10 @@ color: var(--Dark-Gray);
     bottom: 30px;
 }
 
-
+.subwel-txt img {
+    width: 60%;
+    margin-bottom: 30px;
+}
 
 
 /* footer css start  */
