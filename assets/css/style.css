@@ -41,7 +41,7 @@ ul {
 a {
     text-decoration: none;
 }
-.container, .container-fluid {
+.container {
     max-width: 1920px;
     margin: 0 auto;
     padding-left: 5%;
@@ -129,7 +129,9 @@ nav {
     border-color: var(--dark-yellow);
     color: var(--white);
 }
-
+.toggle, .mobile-social{
+    display: none;
+}
 /* header css end  */
 /* banner css start  */
 .site-banner {
@@ -237,7 +239,7 @@ nav {
 }
 .welcome-sec, .sub-welcome{
     padding: 100px 0;
-    background-color: var(--Light-Gray);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     position: relative;
 }
 .welcome-sec::after, .sub-welcome::after{
@@ -354,6 +356,7 @@ nav {
 }
 .sub-banner-txt h2 {
     font-size: 40px;
+    margin-top: 70px;
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -366,7 +369,7 @@ nav {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     overflow: hidden;
     border: 1px solid #eee;
-    border-radius: 15px;
+    /* border-radius: 15px; */
     height: 100%;
     position: relative;
 }
@@ -394,9 +397,28 @@ color: var(--Dark-Gray);
     color: var(--Dark-Gray);
 }
 .attraction-wrap:hover img{
-    transform: scale(1.5);
-  
+    transform: skew(5deg);
+    -webkit-transform: skew(5deg);
+    -moz-transform: skew(5deg);
+    -ms-transform: skew(5deg);
+    -o-transform: skew(5deg);
 }
+
+/* Slide */
+/* .attraction-wrap .alojamiento-img img {
+	margin-left: 30px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.attraction-wrap .alojamiento-img:hover img {
+	margin-left: 0;
+} */
+
+/* Rotate */
+
+
 .attraction-main .col-md-4 {
     margin-bottom: 25px;
 }
@@ -473,12 +495,272 @@ color: var(--Dark-Gray);
 .subwel-txt img {
     width: 60%;
     margin-bottom: 30px;
+    position: relative;
 }
+
+
+/* Style the tab */
+/* .tab {
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    height: 300px;
+  } */
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    display: block;
+    background-color: inherit;
+    color: var(--Dark-Gray);
+    padding: 10px 0;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 18px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #eee;
+  }
+  .tab button img {
+    width: 45px;
+    margin-right: 2px;
+}
+  /* Change background color of buttons on hover */
+  /* .tab button:hover {
+    background-color: var(--Secondary);
+  } */
+  
+  /* Create an active/current "tab button" class */
+  /* .tab button.active {
+    background-color: var(--Secondary);
+  } */
+  
+  /* Style the tab content */
+  .tabcontent {
+    padding: 0px 12px;
+    /* border: 1px solid #ccc; */
+    border-left: none;
+    display: none;
+  }
+
+.alojamiento-wrap{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.alojamiento-left{
+    width: 25%;
+ position: relative;
+ padding: 0 15px;
+ background-color: #fff;
+ border: 1px solid #eee;
+ box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.alojamiento-left .tab{
+    position: sticky;
+    top: 70px;
+    height: 400px;
+    padding: 50px 0;
+}
+.alojamiento-right{
+    width: 75%;
+}
+
+
+.alojamiento-img {
+    height: 300px;
+}
+.alojamiento-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.alojamiento-txt h4 {
+    font-size: 22px;
+}
+.alojamiento-txt{
+    text-align: center;
+    padding: 20px 10px 60px;
+}
+.alojamiento-txt p {
+    font-size: 14px;
+}
+.alojamiento-tabs{
+    padding: 50px 0;
+}
+.alojamiento-tabs::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 40%;
+}
+.alojamiento-box{
+    border: 1px solid #eee;
+    padding: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: var(--white);
+    position: relative;
+    height: 100%;
+}
+.alojamiento-box .explore-btn {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+}
+.alojamiento-right .col-md-6 {
+    margin-bottom: 30px;
+}
+.alojamiento-page  .sub-welcome{
+    padding: 70px 0;
+  }
+.alojamiento-page  .sub-welcome::before, .alojamiento-page  .sub-welcome::after {
+position: inherit;
+height: 0;
+}
+
+
+/* tips page css start */
+.documentation p {
+    font-size: 18px;
+    color: var(--Dark-Gray);
+}
+.documentation p strong{
+    font-size: 20px;
+}
+.documentation ul{
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
+.documentation ul li{
+    font-size: 16px;
+    margin: 5px 0;
+    color: var(--Dark-Gray);
+}
+.documentation ul li::marker {
+    color: #c9b718;
+    font-size: 20px;
+}
+.step-box{
+    border: 2px solid #eeeeee69;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+text-align: center;
+padding: 30px 20px; 
+position: relative;
+height: 100%;
+display: flex;
+align-items: center;
+min-height: 300px;
+}
+.step-count {
+    height: 55px;
+    width: 55px;
+    background: #e4d129;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+}
+.step-text h3 {
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: #333;
+}
+.step-text p {
+    font-size: 14px;
+    margin-bottom: 0;
+    color: var(--Dark-Gray);
+}
+.tips-steps .col-md-4 {
+    padding-top: 50px;
+}
+
+.step-img img {
+    width: 70px;
+}
+.step-img{
+    margin-bottom: 20px;
+}
+.step-wrap{
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    margin: -6px 0 -1px 18px;
+    position: relative;
+}
+.step-wrap:before{
+    width: 100%;
+    height: 100%;
+    content: " ";
+    background-image: url(../images/Explora-más.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0.01;
+}
+.step-1::before{
+    background-image: url(../images/Reserva-de-Vuelos.png);
+}
+.step-2::before{
+background-image: url(../images/Mejor-oferta.png);
+}
+.step-3::before{
+    background-image: url(../images/Alojamiento.png);
+
+}
+.step-4::before{
+    background-image: url(../images/Transporte.png);
+
+}
+.step-5::before{
+    background-image: url(../images/Clima-y-Ropa.png);
+
+}
+.step-6::before{
+    background-image: url(../images/Presupuesto-para-Juego.png);
+
+}
+.step-7::before{
+    background-image: url(../images/Seguro-de-Viaje.png);
+
+}
+.step-8::before{
+    background-image: url(../images/Explora-más.png);
+
+}
+.step-9::before{
+    background-image: url(../images/Reserva-de-Vuelos.png);
+
+}
+/* tips page css end */
+
+
+
+
+
 
 
 /* footer css start  */
 .site-footer{
-    background-color: var(--Secondary);
+    /* background-color: var(--Secondary); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .footer-logo img {
     width: 230px;

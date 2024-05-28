@@ -58,4 +58,101 @@
     .sub-banner {
         height: 550px;
     }
+    .tab button img {
+        width: 50px;
+        margin-right: 5px;
+    }
+    .tab button {
+        font-size: 20px;
+    }
+    .alojamiento-left {
+        width: 19%;
+    }
+    .alojamiento-right {
+        width: 80%;
+    }
+    .sub-banner-txt h2 {
+        font-size: 55px;
+    }
+    .step-img img {
+        width: 90px;
+    }
+    .step-text h3 {
+        font-size: 25px;
+    }
+    .step-text p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:1200px){
+    .site-logo img {
+        max-width: 150px;
+    }
+    .nav-bar ul  li, .social-links ul li {
+        margin: 0 5px;
+    }
+    .social-links ul li a {
+        height: 35px;
+        width: 35px;
+    }
+    .banner-txt h1 {
+        font-size: 45px;
+    }
+    .welcome-wrap {
+        height: 500px;
+    }
+    .footer-logo img {
+        width: 200px;
+    }
+}
+@media(max-width:992px){
+    .toggle{
+        display: block;
+        height: 50px;
+        width: 50px;
+        background-color: #000;
+    }
+    .nav-bar ul {
+        flex-direction: column;
+        align-items: self-start;
+    }
+    .nav-bar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding: 50px;
+        background: #FFF9C4;
+        height: 100vh;
+        width: 400px;
+        z-index: 99;
+        transform: translateX(-100%);
+        transition: all 0.3s linear;
+    }
+    .menuToggle .nav-bar{
+        transform: translateX(0%);
+
+    }
+    .nav-bar ul  li {
+        margin: 10px 0px;
+    }
+    .site-header.nav-up {
+        overflow: visible;
+        transform: inherit;
+        transform-origin: inherit;
+        transform: inherit;
+    }
+    .mobile-social{
+        display: block;
+    }
+    .mobile-social ul{
+        flex-direction: row !important;
+        justify-content: left !important;
+    }
+    .mobile-social ul li{
+        padding-right: 10px;
+    }
+    .desktop-social{
+        display: none;
+    }
 }
