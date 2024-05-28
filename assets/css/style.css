@@ -753,9 +753,24 @@ background-image: url(../images/Mejor-oferta.png);
 
 
 
+/* contact css start  */
+.contact-wrap p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.contact-wrap{
+    margin-bottom: 20px;
+}
+.contact-img {
+    height: 100%;
+}
+.contact-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
-
-
+/* contact css end  */
 
 /* footer css start  */
 .site-footer{
