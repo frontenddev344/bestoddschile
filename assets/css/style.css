@@ -149,6 +149,7 @@ nav {
 }
 .carousel-control-next, .carousel-control-prev {
     width: 3%;
+    display: none;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon{
     position: relative;
