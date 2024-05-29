@@ -427,6 +427,10 @@
     .contact-wrap {
         margin-bottom: 10px;
     }
+    .privacy-wrap p, .privacy-wrap ul li {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
 }
 
 @media(max-width:375px){
