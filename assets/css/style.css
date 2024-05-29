@@ -137,6 +137,15 @@ nav {
 .toggle, .mobile-social{
     display: none;
 }
+.close-btn{
+    display: none;
+}
+.menuToggle .close-btn{
+    display: block;
+}
+.menuToggle .open-btn{
+    display: none;
+}
 /* header css end  */
 /* banner css start  */
 .site-banner {
