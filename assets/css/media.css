@@ -294,8 +294,10 @@
         height: 12px;
     }
     .sub-banner-txt h2 {
-        /* font-size: 35px; */
-        font-size: 30px;
+        font-size: 35px;
+    }
+    .privacy-page .sub-banner-txt h2 {
+        font-size: 25px;
     }
     .sub-banner {
         height: 400px;
