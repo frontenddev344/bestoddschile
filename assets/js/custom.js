@@ -1,7 +1,14 @@
-$(".toggle").click(function(){
+// $(".toggle").click(function(){
 
-  $("header").toggleClass("menuToggle");
+//   $("header").toggleClass("menuToggle");
 
+// });
+
+$(".toggle").click(function() {
+    $("header").addClass("menuToggle");
+});
+$(".close").click(function() {
+    $("header").removeClass("menuToggle");
 });
 
 

@@ -134,18 +134,11 @@ nav {
     border-color: var(--dark-yellow);
     color: var(--white);
 }
-.toggle, .mobile-social{
+.toggle, .mobile-social, .close{
     display: none;
 }
-.close-btn{
-    display: none;
-}
-.menuToggle .close-btn{
-    display: block;
-}
-.menuToggle .open-btn{
-    display: none;
-}
+
+
 /* header css end  */
 /* banner css start  */
 .site-banner {
@@ -411,13 +404,7 @@ color: var(--Dark-Gray);
     font-size: 16px;
     color: var(--Dark-Gray);
 }
-.attraction-wrap:hover img{
-    transform: skew(5deg);
-    -webkit-transform: skew(5deg);
-    -moz-transform: skew(5deg);
-    -ms-transform: skew(5deg);
-    -o-transform: skew(5deg);
-}
+
 
 /* Slide */
 /* .attraction-wrap .alojamiento-img img {
