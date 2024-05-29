@@ -853,3 +853,6 @@ background-image: url(../images/Mejor-oferta.png);
     margin-bottom: 0;
 }
 /* footer css end  */
+.sec-last, .last{
+    margin-bottom: 0 !important;
+}
