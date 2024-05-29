@@ -351,9 +351,16 @@
     }
     .alojamiento-left {
         margin-bottom: 15px;
+
+    }
+    .banner-txt h1 {
+        font-size: 38px;
     }
 }
 @media(max-width:767px){
+    .banner-txt h1 {
+        font-size: 30px;
+    }
     .site-banner {
         height: 60vh;
     }

@@ -143,6 +143,10 @@ nav {
 /* banner css start  */
 .site-banner {
     height: 80vh;
+    background-image: url(../images/herobanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .carousel-inner, .carousel, .carousel-item, .carousel-item img {
     height: 100%;
