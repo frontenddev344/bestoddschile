@@ -340,7 +340,12 @@ nav {
     color:var(--white);
     font-weight: 500;
     border-radius: 5px;
+    border: 1px solid #A39300;
 }
+/* .explore-btn a:hover{
+    background-color: transparent;
+    color: #A39300;
+} */
 /* main card css end  */
 .sub-banner{
     height: 450px;
