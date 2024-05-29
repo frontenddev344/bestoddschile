@@ -294,7 +294,8 @@
         height: 12px;
     }
     .sub-banner-txt h2 {
-        font-size: 35px;
+        /* font-size: 35px; */
+        font-size: 30px;
     }
     .sub-banner {
         height: 400px;

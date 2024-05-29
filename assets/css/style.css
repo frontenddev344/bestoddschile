@@ -790,6 +790,22 @@ background-image: url(../images/Mejor-oferta.png);
 .attraction-main .col-lg-7, .attraction-main .col-lg-5 {
     margin-bottom: 20px;
 }
+.privacy-wrap p, .privacy-wrap ul li {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+.privacy-wrap p a, .privacy-wrap ul li a{
+    font-weight: 600;
+    color: #000;
+}
+.privacy-wrap{
+    margin-bottom: 30px;
+}
+.privacy-wrap ul{
+    list-style: disc;
+    padding-left: 20px;
+    margin: 10px 0;
+}
 /* contact css end  */
 
 /* footer css start  */
