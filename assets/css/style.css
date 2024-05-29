@@ -57,7 +57,7 @@ img {
     height: 100%;
     width: 100%;
     background-color: #000;
-    opacity: 0.5;
+    opacity: 0.3;
 }
 .ptb-50{
     padding: 50px 0;
@@ -112,6 +112,11 @@ nav {
     font-size: 16px;
     font-weight: 500;
     color: var(--Dark-Gray);
+    transition: all 0.3s linear;
+
+}
+.nav-bar ul  li a.active, .nav-bar ul  li a:hover{
+    color: var(--dark-yellow);
 }
 .social-links ul li a{
     height: 40px;
@@ -185,6 +190,7 @@ nav {
     font-weight: 700;
     animation: ani ;
     -webkit-animation: ani 3s;
+    padding-top: 70px;
 }
 @keyframes ani{
     from{
@@ -656,7 +662,6 @@ position: relative;
 height: 100%;
 display: flex;
 align-items: center;
-min-height: 300px;
 }
 .step-count {
     height: 55px;
@@ -685,8 +690,8 @@ min-height: 300px;
     margin-bottom: 0;
     color: var(--Dark-Gray);
 }
-.tips-steps .col-md-4 {
-    padding-top: 50px;
+.tips-steps .col-md-6 {
+    padding-top: 30px;
 }
 
 .step-img img {
@@ -699,7 +704,7 @@ min-height: 300px;
     background-color: #fff;
     height: 100%;
     width: 100%;
-    margin: -6px 0 -1px 18px;
+    /* margin: -6px 0 -1px 18px; */
     position: relative;
 }
 .step-wrap:before{
@@ -769,7 +774,13 @@ background-image: url(../images/Mejor-oferta.png);
     width: 100%;
     object-fit: cover;
 }
-
+.contact-wrap p a{
+    font-weight: 600;
+    color: #000;
+}
+.attraction-main .col-lg-7, .attraction-main .col-lg-5 {
+    margin-bottom: 20px;
+}
 /* contact css end  */
 
 /* footer css start  */
