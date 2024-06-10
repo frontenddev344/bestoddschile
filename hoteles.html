@@ -1,0 +1,655 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+    <link rel="icon" href="assets/images/fav-icn.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Alojamiento</title>
+
+  </head>
+  <body class="alojamiento-page">
+  
+<!-- site header section start  -->
+<header class="site-header nav-down">
+  <div class="container">
+    <nav>
+      <div class="site-logo">
+        <a href="index.html">
+          <img src="assets/images/logo.png" alt="">
+        </a>
+      </div>
+      <div class="nav-bar">
+         <ul>
+          <li>
+            <a href="index.html" >Página de inicio</a>
+          </li>
+          <li>
+            <a href="hoteles.html" class="active">Hoteles</a>
+          </li>
+          <li>
+            <a href="atracciones.html">Atracciones</a>
+          </li>
+          <li>
+            <a href="tip-de-viajero.html">Tip de viajero</a>
+          </li>
+          <li>
+            <a href="contact-us.html">Contáctanos</a>
+          </li>
+         </ul>
+         <div class="mobile-social">
+          <div class="social-links">
+            <ul>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-facebook-f"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+         </div>
+         <div class="close">
+             <i class="fa-solid fa-x"></i>
+         </div>
+      </div>
+      <div class="desktop-social">
+      <div class="social-links">
+        <ul>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+      <div class="toggle">
+        <i class="fa-solid fa-bars "></i>
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- site header section end  -->
+
+<!-- sub banner section start -->
+<div class="sub-banner">
+    <div class="overlay"></div>
+    <div class="sub-bnr-img">
+        <img src="assets/images/casino-banner.jpg" alt="">
+    </div>
+    <div class="sub-banner-txt">
+        <h2>
+            Hoteles
+
+        </h2>
+    </div>
+</div>
+<!-- sub banner section end  -->
+<!-- welcome section start  -->
+<div class="sub-welcome " data-aos="fade-up">
+    <div class="container">
+    <div class="subwel-wrap">
+        <div class="subwel-left">
+            <img src="assets/images/casino-wel-1.jpg" alt="" class="first-img">
+            <div class="floating-img">
+                <img src="assets/images/casino-wel-2.jpg" alt="">
+            </div>
+            <div class="floating-img-2">
+                <img src="assets/images/casino-wel-3.jpg" alt="">
+            </div>
+        </div>
+        <div class="subwel-right">
+            <div class="subwel-txt">
+                <!-- <img src="assets/images/logo.png" alt=""> -->
+                <p>
+                    Bestoddchile está aquí para ayudarte a encontrar el hotel perfecto para tu estancia en Las Vegas.
+                    Desde los icónicos casino resorts que han sido el escenario de innumerables películas y eventos
+                    hasta los nuevos y modernos hoteles que están redefiniendo el lujo en la ciudad, aquí encontrarás
+                    reseñas honestas y detalladas que te ayudarán a tomar la mejor decisión para tu viaje.
+                </p>
+                <p>
+                    Ya sea que estés buscando una experiencia lujosa y exclusiva como un hotel con casino o prefieras
+                    un ambiente más relajado y casual en un hotel económico, tenemos opciones para todos los gustos y
+                    presupuestos.
+                </p>
+                <p>
+                    Explora nuestras reseñas, encuentra el hotel perfecto y prepárate para una experiencia que superará
+                    todas tus expectativas.
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+  <!-- welcome section end  -->
+
+
+<div class="alojamiento-tabs">
+    <div class="container-fluid">
+        <div class="alojamiento-wrap">
+            <div class="alojamiento-left">
+                <div class="tab">
+                   
+                    <button class="tablinks active" onclick="openCity(event, 'London')"> <img src="assets/images/resort.png" alt=""> Hoteles con Casino</button>
+                    <button class="tablinks" onclick="openCity(event, 'Paris')"> <img src="assets/images/budgeting.png" alt=""> Hoteles economicos</button>
+                    <button class="tablinks" onclick="openCity(event, 'Tokyo')"> <img src="assets/images/apartment.png" alt=""> Hoteles lujosos</button>
+                </div>
+            </div>
+            <div class="alojamiento-right">
+                  
+          <div id="London" class="tabcontent" style="display: block;">
+               <div class="row">
+                    <div class="col-xxl-6 col-lg-6 col-md-6">
+                        <div class="alojamiento-box">
+                            <div class="alojamiento-img">
+                                <img src="assets/images/casino-card1.jpg" alt="">
+                            </div>
+                            <div class="alojamiento-txt">
+                                <h4>
+                                    Westgate Las Vegas Resort and Casino
+                                </h4>
+                                <p>
+                                    Todas las habitaciones del Westgate Las Vegas Resort and Casino cuentan con TV de pantalla plana
+                                    por cable, caja fuerte y escritorio. Todas las habitaciones están decoradas con muebles de madera y
+                                    colores vivos.
+                                    <br>
+                                    Westgate Las Vegas Resort and Casino cuenta con un casino de 95,000 pies cuadrados que incluye
+                                    juegos de mesa y tragamonedas. El complejo ofrece un moderno gimnasio y 6 canchas de tenis.
+                                    <br>
+                                    Trece restaurantes y 7 bares ofrecen una variedad de cocina internacional y continental. Los
+                                    huéspedes pueden disfrutar de la cocina japonesa en el
+                                    Benihana.
+                                </p>
+                            </div>
+                            <div class="explore-btn">
+                                <a href="https://www.westgateresorts.com/hotels/nevada/las-vegas/westgate-las-vegas-resort-casin
+                                o/?utm_source=google-gmb&utm_medium=organic&utm_campaign=wglvrc&y_source=1_OTc1MjIzN
+                                C03MTUtbG9jYXRpb24ud2Vic2l0ZQ%3D%3D" target="_blank">Explorar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6  col-lg-6 col-md-6">
+                        <div class="alojamiento-box">
+                            <div class="alojamiento-img">
+                                <img src="assets/images/casino-card2.jpg" alt="">
+                            </div>
+                            <div class="alojamiento-txt">
+                                <h4>
+                                    Luxor
+                                </h4>
+                                <p>
+                                    Conocida por su icónica forma piramidal, Luxor se encuentra en Las Vegas Strip y cuenta con un
+                                    casino y entretenimiento en vivo. Ofrece un spa de servicio completo, 4 piscinas grandes de
+                                    temporada y una bañera de hidromasaje.
+                                    <br>
+                                    Casino Luxor contiene 120.000 pies cuadrados de tragamonedas y juegos de mesa, incluido el
+                                    póquer. BetMGM Sportsbook en Luxor, un campo de apuestas, con televisores de plasma ofrece
+                                    entretenimiento.
+                                    
+                                </p>
+                            </div>
+                            <div class="explore-btn">
+                                <a href="https://luxor.mgmresorts.com/en.html?ecid=GMB_LX_HO" target="_blank">Explorar</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xxl-6 col-lg-6 col-md-6 sec-last">
+                        <div class="alojamiento-box">
+                            <div class="alojamiento-img">
+                                <img src="assets/images/casino-card3.jpg" alt="">
+                            </div>
+                            <div class="alojamiento-txt">
+                                <h4>
+                                    Excalibur
+                                </h4>
+                                <p>
+                                    Este resort y casino con temática de castillo está ubicado en el centro del Strip de Las Vegas. Cuenta
+                                    con 4 piscinas al aire libre de temporada, 14 restaurantes, un casino de 100.000 pies cuadrados y
+                                    entretenimiento nocturno en vivo.
+                                    <br>
+                                    Hay conexión WiFi (incluida en la tarifa del complejo) en todas las habitaciones del Excalibur. Cada
+                                    habitación tiene TV por cable y un baño grande con secador de pelo.
+                                    <br>
+                                    El Excalibur Hotel and Casino dispone de mostrador de información turística. Los huéspedes pueden
+                                    visitar las numerosas tiendas del
+                                    establecimiento.
+                                    
+                                </p>
+                            </div>
+                            <div class="explore-btn">
+                                <a href="https://excalibur.mgmresorts.com/en.html?ecid=GMB_EX_HO" target="_blank">Explorar</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xxl-6 col-lg-6 col-md-6 last">
+                        <div class="alojamiento-box">
+                            <div class="alojamiento-img">
+                                <img src="assets/images/casino-card4.jpg" alt="">
+                            </div>
+                            <div class="alojamiento-txt">
+                                <h4>
+                                    Downtown Grand Hotel & Casino
+                                </h4>
+                                <p>
+                                    Ubicado en el corazón del centro de Las Vegas, Downtown Grand cuenta con Citrus Grand Pool
+                                    Deck, la plataforma de piscina más grande de todo el centro de Las Vegas. Este hotel y casino está a
+                                    400 metros del Fremont Street Experience y a 200 metros del Museo de la Mafia.
+                                    <br>
+                                    Todas las habitaciones ofrecen televisores HD de pantalla plana de 40 pulgadas, mesitas de noche y
+                                    escritorio incorporado. Los baños privados incluyen secador de pelo y artículos de tocador.
+                                    <br>
+                                    El casino del Downtown Grand cuenta con máquinas tragamonedas y ofertas de juegos de mesa. Los
+                                    huéspedes pueden ver partidos en el William Hill Sportsbook.
+                                    
+                                    
+                                </p>
+                            </div>
+                            <div class="explore-btn">
+                                <a href="https://www.downtowngrand.com/?utm_medium=organic&utm_source=google&utm_campaign=busin
+                                ess-listing" target="_blank">Explorar</a>
+                            </div>
+                        </div>
+                    </div>
+               </div>
+          </div>
+          
+
+
+
+
+
+
+
+
+
+
+
+
+          <div id="Paris" class="tabcontent">
+            <div class="row">
+                <div class="col-xxl-6 col-lg-6 col-md-6">
+                    <div class="alojamiento-box">
+                        <div class="alojamiento-img">
+                            <img src="assets/images/budget-card1.jpg" alt="">
+                        </div>
+                        <div class="alojamiento-txt">
+                            <h4>
+                                Motel 6-Las Vegas, NV - Motor Speedway
+                            </h4>
+                            <p>
+                                El Motel 6 Las Vegas, Nv - Motor Speedway está situado en Las Vegas y ofrece conexión WiFi
+                                gratuita. El establecimiento se encuentra a 20 km del centro de convenciones de Las Vegas y a 23
+                                
+                                km del Coliseo del Caesars Palace. El establecimiento se encuentra a 23 km de las fuentes del
+                                Bellagio.
+                                <br>
+                                Todos los alojamientos del hotel están equipados con TV con canales por cable. Las habitaciones
+                                incluyen baño privado. Todas las habitaciones tienen nevera. En la zona común hay un
+                                microondas.
+                            </p>
+                        </div>
+                        <div class="explore-btn">
+                            <a href="https://www.motel6.com/en/home/motels.nv.las-vegas.8793.html?lid=Local_Milestone_87
+                            93&travelAgentNumber=TA001305&corporatePlusNumber=CP792N5W&utm_source=google%20my
+                            %20business&utm_medium=listing&utm_campaign=visit%20website" target="_blank">Explorar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-lg-6 col-md-6">
+                    <div class="alojamiento-box">
+                        <div class="alojamiento-img">
+                            <img src="assets/images/budget-card2.jpg" alt="">
+                        </div>
+                        <div class="alojamiento-txt">
+                            <h4>
+                                Comfort Inn & Suites Henderson - Las Vegas
+                            </h4>
+                            <p>
+                                El Comfort Inn & Suites Henderson está ubicado a unos 21 km del aeropuerto internacional de
+                                McCarran y ofrece una piscina al aire libre, bañera de hidromasaje y un gimnasio. Las habitaciones
+                                disponen de conexión WiFi gratuita y TV por cable de pantalla plana.
+                                <br>
+                                Las habitaciones incluyen microondas, nevera, escritorio, cafetera y utensilios de planchado.
+                                <br>
+                                El Comfort Inn & Suites Henderson ofrece desayunos, un centro de negocios, salas de reuniones,
+                                servicio de lavandería y limpieza en
+                                seco.
+                                
+                            </p>
+                        </div>
+                        <div class="explore-btn">
+                            <a href="https://www.tripadvisor.co.uk/Hotel_Review-g45953-d1177881-Reviews-Comfort_Inn_Suites_He
+                            nderson_Las_Vegas-Henderson_Nevada.html" target="_blank">Explorar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-6 col-lg-6 col-md-6 sec-last">
+                    <div class="alojamiento-box">
+                        <div class="alojamiento-img">
+                            <img src="assets/images/budget-card3.jpg" alt="">
+                        </div>
+                        <div class="alojamiento-txt">
+                            <h4>
+                                La Quinta by Wyndham Las Vegas Summerlin Tech
+                            </h4>
+                            <p>
+                                La Quinta Inn & Suites Las Vegas Summerlin Tech está justo al lado de la autopista 95 y a poca
+                                distancia en auto del centro de Summerlin y a poca distancia en auto del Strip de Las Vegas. El hotel
+                                ofrece un desayuno caliente GRATUITO, una piscina al aire libre y jacuzzi, gimnasio y Wi-Fi
+                                GRATUITO.                              
+                                <br>
+                                Encuentre cómodas habitaciones y suites con TV de pantalla plana, baño privado y amplia área de
+                                trabajo.
+                                <br>
+                                El centro comercial Fashion Show está a 19 kilómetros del hotel y la presa Hoover está a una hora en
+                                coche.
+                            </p>
+                        </div>
+                        <div class="explore-btn">
+                            <a href="https://www.wyndhamhotels.com/laquinta/las-vegas-nevada/la-quinta-las-vegas-summerlin-tec
+                            h/overview?CID=LC:6ysy27krtpcrqev:52962&iata=00093796" target="_blank">Explorar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-lg-6 col-md-6 last">
+                    <div class="alojamiento-box">
+                        <div class="alojamiento-img">
+                            <img src="assets/images/budget-card4.webp" alt="">
+                        </div>
+                        <div class="alojamiento-txt">
+                            <h4>
+                                Holiday Inn Express Hotel and Suites - Henderson, an IHG Hotel
+                            </h4>
+                            <p>
+                                Todas las habitaciones del Holiday Inn Express Hotel and Suites Henderson cuentan con una TV de
+                                pantalla plana, un set de té y café, una nevera y un microondas.
+                                <br>
+                                El Henderson Holiday Inn Express Hotel and Suites dispone de una recepción 24 horas, de un centro
+                                de negocios con servicios de fax y fotocopias y de una lavandería automática.
+                                <br>
+                                Este hotel se encuentra a 4,8 km de la fábrica de la barrita de chocolate Mars y de la chocolatería y el
+                                jardín de cactus de Ethel M, así como a 20 minutos en coche de Las
+                                Vegas.
+                                
+                            </p>
+                        </div>
+                        <div class="explore-btn">
+                            <a href="https://www.ihg.com/holidayinnexpress/hotels/us/en/henderson/hnnnv/hoteldetail?cm_mmc=G
+                            oogleMaps-_-EX-_-US-_-HNNNV" target="_blank">Explorar</a>
+                        </div>
+                    </div>
+                </div>
+               
+           </div>
+          </div>
+          
+          <div id="Tokyo" class="tabcontent">
+            <div class="row">
+                <div class="col-xxl-6 col-lg-6 col-md-6">
+                    <div class="alojamiento-box">
+                        <div class="alojamiento-img">
+                            <img src="assets/images/Luxury-card1.jpg" alt="">
+                        </div>
+                        <div class="alojamiento-txt">
+                            <h4>
+                                The Berkley, Las Vegas
+                            </h4>
+                            <p>
+                                Los huéspedes de The Berkley, Las Vegas podrán relajarse en una amplia suite de 1 o 2 dormitorios
+                                con TV por cable en la sala de estar y el dormitorio. Todas las suites están equipadas con lavadora y
+                                secadora. Estas suites hogareñas ofrecen un baño privado con bañera completa, sofá cama tamaño
+                                queen y un centro multimedia en la sala de estar.
+                                <br>
+                                Todos los huéspedes del The Berkley, Las Vegas tienen acceso gratuito al gimnasio, al centro de
+                                actividades y al centro de negocios con
+                                ordenadores.
+                            </p>
+                        </div>
+                        <div class="explore-btn">
+                            <a href="https://vacationvillageresorts.com/berkley_las_vegas/index.html" target="_blank">Explorar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-lg-6 col-md-6">
+                    <div class="alojamiento-box">
+                        <div class="alojamiento-img">
+                            <img src="assets/images/Luxury-card2.jpg" alt="">
+                        </div>
+                        <div class="alojamiento-txt">
+                            <h4>
+                                Luxury Retreat The Vegas Edition
+                            </h4>
+                            <p>
+                                El Luxury Retreat The Vegas Edition se encuentra en el distrito Summerlin de Las Vegas, a 11 km del
+                                Fremont Street Experience, a 13 km de la torre Stratosphere y a 13 km del Forum Shops At Caesars
+                                Palace 
+                                
+                            </p>
+                        </div>
+                        <div class="explore-btn">
+                            <a href="https://www.booking.com/hotel/us/the-luxe-las-vegas.en-gb.html" target="_blank">Explorar</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xxl-6 col-lg-6 col-md-6 sec-last">
+                    <div class="alojamiento-box">
+                        <div class="alojamiento-img">
+                            <img src="assets/images/Luxury-card3.jpg" alt="">
+                        </div>
+                        <div class="alojamiento-txt">
+                            <h4>
+                                Lucky Gem Penthouse Suite MGM Signature, Balcony Strip View 3505
+                            </h4>
+                            <p>
+                                El Lucky Gem Penthouse Suite MGM Signature, Balcony Strip View 3505 goza de una ubicación
+                                ideal en Las Vegas y ofrece habitaciones con aire acondicionado y conexión WiFi gratuita,
+                                aparcamiento privado gratuito y servicio de habitaciones. Entre las diversas instalaciones de esta
+                                propiedad se incluyen una piscina al aire libre, un jardín y una terraza. Los huéspedes pueden
+                                disfrutar de platos americanos en el restaurante o tomar un cóctel en el bar.
+                                <br>
+                                Todas las habitaciones del hotel incluyen escritorio, TV de pantalla plana, baño privado, ropa de
+                                cama, toallas y balcón con vistas a la ciudad. Todas las habitaciones disponen de armario y hervidor
+                                de agua.
+                                <br>
+                                El Lucky Gem Penthouse Suite MGM Signature, Balcony Strip View 3505 dispone de centro de
+                                negocios y máquinas expendedoras de aperitivos y bebidas. El personal de la recepción está abierta
+                                las 24 horas y habla inglés y
+                                español.
+                            </p>
+                        </div>
+                        <div class="explore-btn">
+                            <a href="https://www.booking.com/hotel/us/lucky-gem-penthouse-suite-mgm-signature-balcony-strip-vi
+                            ew.en-gb.html" target="_blank">Explorar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xxl-6 col-lg-6 col-md-6 last">
+                    <div class="alojamiento-box">
+                        <div class="alojamiento-img">
+                            <img src="assets/images/Luxury-card4.jpg" alt="">
+                        </div>
+                        <div class="alojamiento-txt">
+                            <h4>
+                                Condo at Platinum Hotel Strip View
+                            </h4>
+                            <p>
+                                El Condo at Platinum Hotel Strip View se encuentra en el corazón de Las Vegas, a poca distancia de
+                                The Sphere Vegas y de las fuentes del Bellagio, y ofrece conexión WiFi gratuita, aire acondicionado,
+                                microondas y cafetera. Este establecimiento ofrece una piscina en la azotea y aparcamiento privado
+                                gratuito. El aparthotel ofrece piscina cubierta, bañera de hidromasaje y recepción 24 horas. El
+                                establecimiento también dispone de alojamiento para personas de movilidad reducida.
+                                <br>
+                                Este amplio aparthotel con balcón y vistas a la piscina tiene 1 dormitorio, sala de estar, TV de
+                                pantalla plana, cocina equipada con lavavajillas y horno y 1 baño con bañera de hidromasaje. Los
+                                huéspedes pueden disfrutar del ambiente de los alrededores desde una zona de comedor al aire libre
+
+                                o mantenerse calientes junto a la chimenea en los días más fríos. El apartotel ofrece ropa de cama,
+                                toallas y servicio de
+                                lavandería.
+                                
+                            </p>
+                        </div>
+                        <div class="explore-btn">
+                            <a href="https://lodge.silvertoncasino.com/?gad_source=1&gclid=EAIaIQobChMIjtD_9rONhgMVIzs
+                            GAB09Yw_zEAAYASAAEgIHLPD_BwE" target="_blank">Explorar</a>
+                        </div>
+                    </div>
+                </div>
+
+               
+               
+           </div>
+          </div>
+            </div>
+        </div>
+
+
+        
+        
+    </div>
+</div>
+
+
+
+<!-- footer section start  -->
+<footer class="site-footer ptb-50">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="footer-logo">
+          <a href="index.html">
+            <img src="assets/images/logo.png" alt="">
+          </a>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="footer-heading">
+          <h3>
+            Nuestros enlaces
+          </h3>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a href="index.html">Página de inicio</a>
+            </li>
+            <li>
+              <a href="hoteles.html">Hoteles</a>
+            </li>
+            <li>
+              <a href="atracciones.html">Atracciones</a>
+            </li>
+            <li>
+              <a href="tip-de-viajero.html">Tip de viajero</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="footer-heading">
+          <h3>
+            Nuestros servicios
+          </h3>
+        </div>
+        <div class="footer-links">
+          <ul>
+            <li>
+              <a href="contact-us.html">Contáctanos</a>
+            </li>
+            <li>
+              <a href="privacy-policy.html">Política de privacidad</a>
+            </li>
+            <li>
+              <a href="term-and-condition.html">Términos y condiciones</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="copy-right">
+    <p>
+      © Copyright 2024 bestoddschile.com 
+    </p>
+    <div class="social-links">
+      <ul>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-facebook-f"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- footer section end  -->
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+    <script>
+        
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the link that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+    </script>
+  </body>
+</html>
