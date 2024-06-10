@@ -1,192 +1,250 @@
-@media(min-width:1600px){
-    .nav-bar ul  li a {
+@media(min-width:1600px) {
+    .nav-bar ul li a {
         font-size: 20px;
     }
+
     .social-links ul li a {
         height: 50px;
         width: 50px;
     }
+
     .site-logo img {
         max-width: 250px;
     }
+
     .banner-txt h1 {
         font-size: 80px;
     }
+
     .welcome-txt p {
         font-size: 20px;
     }
+
     .welcome-wrap {
         height: 500px;
     }
+
     .card-box {
         height: 450px;
     }
+
     .card-txt h4 {
         font-size: 30px;
     }
+
     .explore-btn a {
         font-size: 16px;
         padding: 10px 20px;
     }
+
     .footer-logo img {
         width: 300px;
     }
+
     .footer-heading h3 {
         font-size: 30px;
     }
+
     .footer-links ul li a {
         font-size: 20px;
     }
+
     .copy-right p {
         font-size: 20px;
     }
+
     .attraction-img {
         height: 350px;
     }
+
     .attraction-txt h3 {
         font-size: 28px;
     }
+
     .attraction-txt p {
         font-size: 20px;
     }
+
     .subwel-wrap {
         height: 550px;
     }
+
     .subwel-txt p {
         font-size: 20px;
     }
+
     .sub-banner {
         height: 550px;
     }
+
     .tab button img {
         width: 50px;
         margin-right: 5px;
     }
+
     .tab button {
         font-size: 20px;
     }
+
     .alojamiento-left {
         width: 19%;
     }
+
     .alojamiento-right {
         width: 80%;
     }
+
     .sub-banner-txt h2 {
         font-size: 55px;
     }
+
     .step-img img {
         width: 90px;
     }
+
     .step-text h3 {
         font-size: 25px;
     }
+
     .step-text p {
         font-size: 16px;
     }
 }
 
-@media(max-width:1200px){
+@media(max-width:1200px) {
     .site-logo img {
         max-width: 150px;
     }
-    .nav-bar ul  li, .social-links ul li {
+
+    .nav-bar ul li,
+    .social-links ul li {
         margin: 0 5px;
     }
+
     .social-links ul li a {
         height: 35px;
         width: 35px;
     }
+
     .banner-txt h1 {
         font-size: 45px;
     }
+
     .welcome-wrap {
         height: 500px;
     }
+
     .footer-logo img {
         width: 200px;
     }
+
     .subwel-txt img {
         width: 250px;
         margin-bottom: 25px;
     }
+
     .subwel-txt {
         padding: 30px 0 30px 30px;
     }
+
     .subwel-wrap {
         height: 550px;
     }
+
     .tab button {
         font-size: 16px;
     }
+
     .tab button img {
         width: 40px;
     }
+
     .alojamiento-img {
         height: 250px;
     }
+
     .alojamiento-txt h4 {
         font-size: 18px;
     }
-    .nav-bar ul  li a {
+
+    .nav-bar ul li a {
         font-size: 14px;
     }
+
     .sub-banner-txt h2 {
         font-size: 35px;
     }
+
     .sub-banner {
         height: 400px;
     }
+
     .attraction-img {
         height: 250px;
     }
+
     .attraction-txt h3 {
         font-size: 18px;
     }
+
     .attraction-txt p {
         font-size: 14px;
     }
+
     .attraction-txt {
         padding: 20px 20px 60px;
     }
+
     .documentation p strong {
         font-size: 18px;
     }
+
     .documentation p {
         font-size: 16px;
     }
+
     .documentation ul li {
         font-size: 14px;
         margin: 2px 0;
     }
+
     .documentation ul li::marker {
         font-size: 17px;
     }
+
     .step-img img {
         width: 60px;
     }
+
     .step-text h3 {
         font-size: 20px;
         margin-bottom: 8px;
     }
+
     .step-text p {
         font-size: 12px;
     }
+
     .step-box {
         padding: 20px 10px;
     }
+
     .contact-wrap p {
         font-size: 14px;
     }
+
     .contact-wrap {
         margin-bottom: 15px;
     }
 }
-@media(max-width:992px){
-    .toggle{
+
+@media(max-width:992px) {
+    .toggle {
         display: block;
         font-size: 25px;
         position: relative;
     }
+
     .close {
         display: block;
         position: absolute;
@@ -194,10 +252,12 @@
         right: 20px;
         font-size: 20px;
     }
+
     .nav-bar ul {
         flex-direction: column;
         align-items: self-start;
     }
+
     .nav-bar {
         position: absolute;
         top: 0;
@@ -210,134 +270,183 @@
         transform: translateX(-100%);
         transition: all 0.3s linear;
     }
-    .menuToggle .nav-bar{
+
+    .menuToggle .nav-bar {
         transform: translateX(0%);
 
     }
-    .nav-bar ul  li {
+
+    .nav-bar ul li {
         margin: 10px 0px;
     }
+
     .site-header.nav-up {
         overflow: visible;
         transform: inherit;
         transform-origin: inherit;
         transform: inherit;
     }
-    .mobile-social{
+
+    .mobile-social {
         display: block;
     }
-    .mobile-social ul{
+
+    .mobile-social ul {
         flex-direction: row !important;
         justify-content: left !important;
     }
-    .mobile-social ul li{
+
+    .mobile-social ul li {
         padding-right: 10px;
     }
-    .desktop-social{
+
+    .desktop-social {
         display: none;
     }
+
     .contact-img {
         height: 350px;
         margin-bottom: 20px;
     }
 }
-@media(max-width:850px){
+
+@media(max-width:991px) {
+    .col-lg-4.col-md-12.col-sm-12.space {
+        margin-top: 20px;
+    }
+
+    .conclusion p {
+        font-size: 16px;
+    }
+}
+
+@media(max-width:850px) {
     .welcome-wrap {
         height: auto;
         flex-direction: column-reverse;
     }
-    .welcome-left, .welcome-right {
+
+    .welcome-left,
+    .welcome-right {
         width: 100%;
     }
+
     .welcome-txt {
         padding: 20px 0;
     }
-    .welcome-sec{
+
+    .welcome-sec {
         padding: 50px 0;
-    
+
     }
+
     .welcome-right {
         height: 400px;
     }
+
     .ptb-70 {
         padding: 50px 0;
     }
+
     .card-wrap {
         flex-direction: column;
     }
+
     .card-box {
         width: 100%;
         margin-bottom: 20px;
         height: 350px;
     }
+
     .footer-logo img {
         width: 160px;
     }
+
     .footer-heading h3 {
         font-size: 22px;
     }
+
     .footer-links ul li a {
         font-size: 14px;
     }
+
     .footer-links ul li {
         margin: 5px 0;
     }
+
     .site-logo img {
         max-width: 130px;
     }
+
     .copy-right p {
         font-size: 14px;
     }
+
     .social-links ul li a {
         height: 30px;
         width: 30px;
     }
+
     .ptb-50 {
         padding: 30px 0;
     }
+
     .carousel-indicators [data-bs-target] {
         width: 12px;
         height: 12px;
     }
+
     .sub-banner-txt h2 {
         font-size: 35px;
     }
+
     .privacy-page .sub-banner-txt h2 {
         font-size: 25px;
     }
+
     .sub-banner {
         height: 400px;
     }
+
     .subwel-wrap {
         height: auto;
         flex-direction: column;
     }
+
     .subwel-left {
         width: 100%;
         height: 400px;
     }
+
     .subwel-right {
         width: 100%;
     }
+
     .subwel-txt img {
         width: 200px;
         margin-bottom: 20px;
     }
+
     .subwel-txt {
         padding: 20px 0;
     }
-    .alojamiento-page  .sub-welcome {
+
+    .alojamiento-page .sub-welcome {
         padding: 50px 0;
     }
+
     .alojamiento-wrap {
         flex-direction: column;
     }
+
     .alojamiento-left {
         width: 100%;
     }
+
     .alojamiento-right {
         width: 100%;
     }
+
     .alojamiento-left .tab {
         position: inherit;
         top: 0;
@@ -346,116 +455,155 @@
         display: flex;
         gap: 30px;
     }
+
     .tab button {
         margin-bottom: 0px;
     }
+
     .alojamiento-left {
         margin-bottom: 15px;
 
     }
+
     .banner-txt h1 {
         font-size: 38px;
     }
 }
-@media(max-width:767px){
+
+@media(max-width:767px) {
+    .col-lg-4.col-md-6.col-sm-12.spacetop {
+        margin-top: 20px;
+    }
+
     .banner-txt h1 {
         font-size: 30px;
     }
+
     .site-banner {
         height: 60vh;
     }
+
     .welcome-right {
         height: 300px;
     }
+
     .welcome-sec {
         padding: 30px 0;
     }
-    .welcome-sec::after, .sub-welcome::after {
+
+    .welcome-sec::after,
+    .sub-welcome::after {
         height: 0;
     }
+
     .card-box {
         height: 250px;
     }
+
     .explore-btn a {
         font-size: 12px;
     }
+
     .card-txt h4 {
         font-size: 22px;
     }
+
     .footer-logo img {
         margin-bottom: 20px;
     }
+
     .footer-heading h3 {
         margin-bottom: 10px;
     }
+
     .footer-links {
         margin-bottom: 20px;
     }
+
     .copy-right {
         margin-top: 30px;
         flex-direction: column-reverse;
     }
+
     .copy-right .social-links {
         margin-bottom: 10px;
     }
+
     .sub-banner-txt h2 {
         font-size: 30px;
     }
+
     .sub-banner {
         height: 350px;
     }
+
     .subwel-left {
         height: 350px;
     }
+
     .subwel-txt img {
         width: 150px;
         margin-bottom: 15px;
     }
+
     .alojamiento-right .col-md-6 {
         padding-right: 0;
         padding-left: 0;
     }
+
     .nav-bar {
         width: 100%;
     }
-    .sec-last, .last{
+
+    .sec-last,
+    .last {
         margin-bottom: 30px !important;
     }
 }
-@media(max-width:575px){
+
+@media(max-width:575px) {
     .tab button img {
         width: 35px;
         display: block;
     }
+
     .tab button {
         font-size: 12px;
     }
+
     .alojamiento-left .tab {
         gap: 5px;
     }
+
     .sub-banner-txt h2 {
         font-size: 28px;
     }
+
     .contact-img {
         height: 250px;
         margin-bottom: 20px;
     }
+
     .contact-wrap {
         margin-bottom: 10px;
     }
-    .privacy-wrap p, .privacy-wrap ul li {
+
+    .privacy-wrap p,
+    .privacy-wrap ul li {
         font-size: 14px;
         margin-bottom: 5px;
     }
 }
 
-@media(max-width:375px){
+@media(max-width:375px) {
     .subwel-left {
         height: 300px;
     }
+
     .attraction-txt {
         padding: 10px 10px 60px;
     }
+
     .attraction-wrap .explore-btn {
         position: absolute;
         left: 10px;
