@@ -1059,3 +1059,6 @@ nav {
 .conclusion p {
     font-size: 20px;
 }
+.row.justify-content-center.spaces .col-lg-4.col-md-6.col-sm-12 {
+    margin-bottom: 30px;
+}

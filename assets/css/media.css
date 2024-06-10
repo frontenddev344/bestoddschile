@@ -311,13 +311,14 @@
 }
 
 @media(max-width:991px) {
-    .col-lg-4.col-md-12.col-sm-12.space {
+    .col-lg-6.col-md-12.col-sm-12.space {
         margin-top: 20px;
     }
 
     .conclusion p {
         font-size: 16px;
     }
+
 }
 
 @media(max-width:850px) {
@@ -471,8 +472,10 @@
 }
 
 @media(max-width:767px) {
-    .col-lg-4.col-md-6.col-sm-12.spacetop {
-        margin-top: 20px;
+
+    .col-lg-6.col-md-6.col-sm-12.spacetop {
+        margin-bottom: 30px;
+        margin-top: 30px;
     }
 
     .banner-txt h1 {
